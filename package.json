@@ -18,8 +18,9 @@
   "homepage": "https://github.com/jayps/node-lamda-example#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "serverless": "^3.2.0",
-    "serverless-http": "^2.7.0",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
     "serverless-offline": "^8.4.0"
   }
 }

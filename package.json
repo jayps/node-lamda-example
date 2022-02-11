@@ -4,7 +4,7 @@
   "description": "NodeJS and Lambda Example",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "serverless offline start --httpPort 3000"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jayps/node-lamda-example#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "serverless": "^3.2.0",
+    "serverless-offline": "^8.4.0"
   }
 }

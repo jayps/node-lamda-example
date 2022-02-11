@@ -1,0 +1,22 @@
+{
+  "name": "lamda-example",
+  "version": "1.0.0",
+  "description": "NodeJS and Lambda Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayps/node-lamda-example.git"
+  },
+  "author": "JP Meyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayps/node-lamda-example/issues"
+  },
+  "homepage": "https://github.com/jayps/node-lamda-example#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
